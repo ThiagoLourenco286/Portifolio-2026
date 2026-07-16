@@ -42,7 +42,7 @@ export function Certificados() {
                                     type="button"
                                     key={cert.id}
                                     onClick={() => setActiveIndex(index)}
-                                    className="flex flex-col items-center group focus:outline-none flex-shrink-0 w-24 md:flex-1 md:w-auto"
+                                    className="flex flex-col items-center group focus:outline-none shrink-0 w-24 md:flex-1 md:w-auto"
                                 >
                                     <div
                                         className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-sm sm:text-base font-bold border-4 transition-all duration-300
