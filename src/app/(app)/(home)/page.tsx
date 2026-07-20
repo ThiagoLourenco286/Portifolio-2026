@@ -64,7 +64,7 @@ export default function Home() {
               <ImageLightbox src="/assets/projetos/urbancut.png" alt="" layoutId="Urbancut" className="md:w-175 md:h-36" />
 
               <div className="flex flex-col gap-3">
-                <h4 className="uppercase">IronPulse</h4>
+                <h4 className="uppercase">Urbancut</h4>
                 <p className="text-xs">Sistema para gerenciamento de uma Barbearia.</p>
 
                 <Link href={'https://github.com/ThiagoLourenco286/Sitema-Barbearia-Front-end'} target="_blank" className="text-xs text-tech-accent-blue/50 underline">
