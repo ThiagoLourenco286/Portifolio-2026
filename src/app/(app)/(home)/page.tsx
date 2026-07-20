@@ -1,7 +1,7 @@
 /** biome-ignore-all lint/performance/noImgElement: <Imagens> */
 import { Plus } from "lucide-react";
 import Link from "next/link";
-import ImageLightbox from "../components/image-light-box";
+import ImageLightbox from "../../../components/image-light-box";
 import { Icons } from "@/components/icons";
 
 export default function Home() {
@@ -81,7 +81,7 @@ export default function Home() {
         <div className=" bg-tech-card border border-tech-border rounded-2xl flex flex-col items-center gap-5 py-5 md:w-76 md:h-125" >
           <h2 className="text-[20px] font-mono">Certificados mais recentes</h2>
           <div className="flex flex-col gap-5 px-5">
-            <ImageLightbox src="/assets/certificados/cleancode.png" alt="" layoutId="CleanCode" className="rounded-lg md:w-160 md:h-45" />
+            <ImageLightbox src="/assets/certificados/postgres.png" alt="" layoutId="CleanCode" className="rounded-lg md:w-160 md:h-45" />
             <ImageLightbox src="/assets/certificados/next.png" alt="" layoutId="NextJs" className="rounded-lg md:w-160 md:h-45" />
           </div>
           <Link href={'/Certificados'} className="text-sm text-tech-accent-blue/50 underline">
@@ -89,7 +89,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className=" bg-tech-card border border-tech-border rounded-2xl p-5 flex flex-col gap-5 md:w-76 md:h-49">
+        <div className=" bg-tech-card border border-tech-border rounded-2xl p-5 flex flex-col gap-5 md:w-76 md:h-50">
 
           <h2 className="text-2xl font-mono">Contatos</h2>
           <div className="flex flex-col gap-2">

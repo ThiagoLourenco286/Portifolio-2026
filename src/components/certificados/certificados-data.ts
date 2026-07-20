@@ -104,13 +104,13 @@ export const certificadosData = [
     {
         id: 18,
         data: "Fev 2026",
-        titulo: "NextJs - PetShop",
+        titulo: "NextJs - BoardApp",
         imagem: "/assets/certificados/next3.png",
     },
     {
         id: 19,
         data: "Fev 2026",
-        titulo: "NextJs - BoardApp",
+        titulo: "NextJs",
         imagem: "/assets/certificados/next.png",
     },
     {

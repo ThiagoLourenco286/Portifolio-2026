@@ -17,10 +17,10 @@ const jestBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Portfólio',
-    template: 'Portfólio | %s'
+    default: 'Thiago Lourenço | Desenvolvedor Full Stack',
+    template: '%s | Thiago Lourenço'
   },
-  description: "Portfólio sobre mim",
+  description: "Portfólio de Thiago Lourenço, desenvolvedor full stack em transição de carreira, com projetos em React, Next.js e Node.js.",
 };
 
 export default function RootLayout({
@@ -30,10 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={`${geistSans.variable} ${jestBrainsMono.variable} h-full antialiased`}
     >
-      <body className="h-screen w-screen bg-tech-bg text-tech-primary overflow-hidden">
+      <body className="h-dvh w-dvw bg-tech-bg text-tech-primary overflow-hidden">
         <div className="relative w-full h-full">
 
           <Particles
