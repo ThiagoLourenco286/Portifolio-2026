@@ -13,7 +13,7 @@ export default function CompetenciaPage() {
             <div className="flex flex-col gap-8 md:flex md:flex-row md:gap-5">
                 <div className="flex flex-col bg-tech-card p-5 border border-tech-border rounded-2xl gap-6 md:gap-4 md:w-220">
                     <h2 className="text-3xl font-mono">Competências em Destaque</h2>
-                    <div className="grid grid-cols-3 gap-5 md:flex">
+                    <div className="grid grid-cols-2 items-center justify-center gap-5 md:flex">
                         <Circle progress={80} svg="/assets/logos/react.svg" alt="react" />
                         <Circle progress={70} svg="/assets/logos/nextdotjs.svg" alt="nextjs" />
                         <Circle progress={80} svg="/assets/logos/tailwind-css.svg" alt="tailwind" />
@@ -32,19 +32,19 @@ export default function CompetenciaPage() {
                 </div>
 
 
-                <div className="flex flex-col items-center gap-5 w-full h-83 bg-tech-card border border-tech-border rounded-2xl md:w-104 md:h-83">
-                    <h2 className="font-mono font-extrabold text-2xl pt-5">Idiomas</h2>
-                    <div className="flex gap-5">
+                <div className="flex flex-col items-center gap-5 w-full h-fit py-5 bg-tech-card border border-tech-border rounded-2xl md:w-104 md:h-86 md:gap-15">
+                    <h2 className="font-mono font-extrabold text-2xl">Idiomas</h2>
+                    <div className="flex flex-col gap-5 md:flex md:flex-row ">
                         <Circle progress={100} svg="/assets/logos/brasil.png" alt="brasil" description="Português - Fluente / Nativo" />
                         <Circle progress={40} svg="/assets/logos/eua.png" alt="eua" description="Inglês - Basico / Intermediario" />
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-col items-center bg-tech-card border border-tech-border rounded-2xl md:flex md:flex-row md:w-full md:h-96 md:py-2">
-                <div className=" flex flex-col py-4 ps-10 gap-3 md:w-1/2 ">
-                    <h3 className="font-mono font-extrabold text-[18px]">Hards Skils</h3>
-                    <div className="grid grid-cols-4 gap-3">
+            <div className="flex flex-col items-center bg-tech-card border border-tech-border rounded-2xl px-2 md:flex md:flex-row md:w-full md:h-93 md:py-2">
+                <div className=" flex flex-col py-4 md:ps-10 gap-3 md:w-1/2 ">
+                    <h3 className="font-mono font-extrabold text-[18px]">Hard Skils</h3>
+                    <div className="grid grid-cols-2 gap-3 md:grid md:grid-cols-4">
                         <Icons src={'/assets/logos/github-dark.svg'} alt="github" />
                         <Icons src={'/assets/logos/typescript.svg'} alt="typescript" />
                         <Icons src={'/assets/logos/figma.svg'} alt="figma" />
@@ -58,9 +58,9 @@ export default function CompetenciaPage() {
 
                 <div className="w-full h-0.5 md:w-0.5 md:h-full bg-tech-border" />
 
-                <div className="flex flex-col py-4 gap-3 md:w-1/2 ps-10">
+                <div className="flex flex-col py-4 gap-3 md:w-1/2 md:ps-10">
                     <h3 className="font-mono font-extrabold text-[18px]">Soft Skils</h3>
-                    <div className="grid grid-cols-4 gap-3">
+                    <div className="grid grid-cols-2 gap-3 md:grid md:grid-cols-4">
                         <Icons src={'/assets/logos/trabalho-equipe.png'} alt="trabalho em equipe" description="Trabalho em Equipe" />
                         <Icons src={'/assets/logos/comunicacao.png'} alt="comunição" description="Comunição" />
                         <Icons src={'/assets/logos/pensamento-criativo.png'} alt="pensamento criativo" description="Pensamento Criativo" />

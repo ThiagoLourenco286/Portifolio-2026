@@ -43,8 +43,8 @@ export default function ProjetosPage() {
                         { src: "/assets/logos/postgresql.svg", alt: "postgresql" },
                     ]} />
 
-                <Projetos src="/assets/projetos/landingpage.png" alt="Landing Page Urbancut" title="Landing Page Urbancut"
-                    descricao="Uma landing page simples para ter um visual para a sistema do Urbancut."
+                <Projetos src="/assets/projetos/land.png" alt="Landing Page Urbancut" title="Landing Page Urbancut"
+                    descricao="Uma landing page simples para ter um visual de entrada para os clientes. Focado para demonstrar sobre uma barbearia ficticia e chamar atenção dos clinentes."
                     href="https://github.com/ThiagoLourenco286/Landing-Page-Urbancut"
                     techs={[
                         { src: "/assets/logos/react.svg", alt: "react" },
@@ -114,7 +114,7 @@ export default function ProjetosPage() {
                         { src: "/assets/logos/css.svg", alt: "css" },
                     ]} />
 
-                <Projetos src="/assets/projetos/links.png" alt="Monitoramento de Links" title="Monitoramento de Links"
+                <Projetos src="/assets/projetos/links1.png" alt="Monitoramento de Links" title="Monitoramento de Links"
                     descricao=" Esse projeto foi feito no curso Programador Br, com intuido de
                             criar um site que conseguimos adicionar links de diversas
                             plataformas e fazer um monitoramentos de quantos clicks teve certo

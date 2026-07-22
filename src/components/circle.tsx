@@ -8,7 +8,7 @@ interface CircleProps {
 
 export function Circle({ progress, svg, alt, description }: CircleProps) {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-3 items-center">
             <div
                 className="w-30 h-30 rounded-full p-1 "
                 style={{

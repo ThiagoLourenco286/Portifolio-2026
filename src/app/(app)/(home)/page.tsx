@@ -20,14 +20,14 @@ export default function Home() {
             </p>
           </div>
 
-          <Link href='/assets/curriculo.pdf' target="_blank" rel="noopener noreferrer" className="h-10 w-fit bg-tech-accent-blue/40 uppercase text-sm absolute md:bottom-3 right-5 flex items-center px-3 rounded-md ">currículo</Link>
+          <Link href='/assets/curriculo.pdf' target="_blank" rel="noopener noreferrer" className="h-10 w-fit bg-tech-accent-blue/40 uppercase text-sm absolute right-2 flex items-center px-1 rounded-md md:bottom-3 md:px-3 md:right-5">currículo</Link>
         </div>
 
         <div className="flex flex-col gap-8 md:flex md:flex-row">
           <div className="bg-tech-card border border-tech-border rounded-2xl py-5 flex flex-col items-center gap-8 md:w-117.5 md:h-103">
             <h2 className="text-2xl font-mono">Competências</h2>
 
-            <div className=" grid grid-cols-3 gap-10">
+            <div className=" grid grid-cols-3 gap-5 md:gap-10">
               <Icons src="/assets/logos/react.svg" alt="react" />
               <Icons src="/assets/logos/github-dark.svg" alt="github" />
               <Icons src="/assets/logos/nodedotjs.svg" alt="nodejs" />
@@ -42,34 +42,36 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-tech-card border border-tech-border rounded-2xl flex flex-col items-center py-5 gap-10 md:gap-3 md:w-117.5 md:h-103">
+          <div className="bg-tech-card border border-tech-border rounded-2xl flex flex-col items-center py-5 gap-8 h-152.5 md:gap-3 md:w-117.5 md:h-103">
             <h2 className="text-2xl font-mono">Projetos em Destaque</h2>
 
-            <div className="w-11/12 h-40 flex items-center gap-3">
+            <div className="flex flex-col gap-25 items-center md:gap-2">
+              <div className="w-11/12 h-40 flex flex-col items-start gap-2 md:flex md:flex-row md:items-center md:gap-3">
 
-              <ImageLightbox src="/assets/projetos/ironpulse.png" alt="Ironpulse" layoutId="Ironpulse" className="md:w-175 md:h-36" />
+                <ImageLightbox src="/assets/projetos/ironpulse.png" alt="Ironpulse" layoutId="Ironpulse" className="md:w-175 md:h-36" />
 
-              <div className="flex flex-col gap-3">
-                <h4 className="uppercase">IronPulse</h4>
-                <p className="text-xs">Sistema para gerenciamento de uma Academia.</p>
+                <div className="flex flex-col gap-3">
+                  <h4 className="uppercase">IronPulse</h4>
+                  <p className="text-xs text-tech-secundary">Sistema para gerenciamento de uma Academia.</p>
 
-                <Link href={'https://github.com/ThiagoLourenco286/Sitema-Academia-Front-end'} target="_blank" className="text-xs text-tech-accent-blue/50 underline ">
-                  Ver codigo
-                </Link>
+                  <Link href={'https://github.com/ThiagoLourenco286/Sitema-Academia-Front-end'} target="_blank" className="text-xs text-tech-accent-blue/50 underline ">
+                    Ver codigo
+                  </Link>
+                </div>
+
               </div>
 
-            </div>
+              <div className="w-11/12 h-40 flex flex-col items-start gap-2 md:flex md:flex-row md:items-center md:gap-3">
+                <ImageLightbox src="/assets/projetos/urbancut.png" alt="" layoutId="Urbancut" className="md:w-175 md:h-36" />
 
-            <div className="w-11/12 h-40 flex items-center gap-3">
-              <ImageLightbox src="/assets/projetos/urbancut.png" alt="" layoutId="Urbancut" className="md:w-175 md:h-36" />
+                <div className="flex flex-col gap-3">
+                  <h4 className="uppercase">Urbancut</h4>
+                  <p className="text-xs text-tech-secundary">Sistema para gerenciamento de uma Barbearia.</p>
 
-              <div className="flex flex-col gap-3">
-                <h4 className="uppercase">Urbancut</h4>
-                <p className="text-xs">Sistema para gerenciamento de uma Barbearia.</p>
-
-                <Link href={'https://github.com/ThiagoLourenco286/Sitema-Barbearia-Front-end'} target="_blank" className="text-xs text-tech-accent-blue/50 underline">
-                  Ver codigo
-                </Link>
+                  <Link href={'https://github.com/ThiagoLourenco286/Sitema-Barbearia-Front-end'} target="_blank" className="text-xs text-tech-accent-blue/50 underline">
+                    Ver codigo
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
